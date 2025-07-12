@@ -1,0 +1,31 @@
+QWidget {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    color: #212529;
+}
+
+QFrame#volume_container {
+    background-color: #e0e0e0;
+    border-radius: 6px;
+}
+
+QFrame#volume_bar {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:0,
+        stop:0 #00c471, stop:1 #1ad07f
+    );
+    border-radius: 6px;
+}
+
+QLabel {
+    border: none;
+    background-color: transparent;
+}
+
+QMessageBox {
+    background-color: #ffffff;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+}
